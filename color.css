@@ -1,0 +1,29 @@
+.button-blue { 
+    background-color: #2F65F8;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    border-radius: 3.125px;
+    -webkit-border-radius: 3.125px;
+    -moz-border-radius: 3.125px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.button-blue:hover {
+    background-color: #6C9BFF;
+    cursor: pointer;
+}
+
+.sub-heading {
+    background-color: #F8F8FE;
+}
+
+.bg-hell-blue {
+    background-color: #575988;
+    padding: 54px 48px 71px;
+    text-align: center;
+}
+
+.bg-dark-blue {
+    background-color: #07043B;
+}
