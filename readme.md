@@ -57,7 +57,7 @@ I want to built more projects using JS to emprove my programing skills
 
 ### Useful resources
 
-- [w3school](https://www.w3schools.com/jsref/prop_email_pattern.asp) this helped me to check over user email validation
+- [w3school](https://www.w3schools.com/jsref/prop_email_pattern.asp) - this helped me to check over user email validation
 - [w3school](https://www.w3schools.com/howto/howto_js_add_class.asp) - how to add class in html using JS
 - [w3school](https://www.w3schools.com/js/js_htmldom_nodes.asp) - creating New HTML Elements (Nodes)
 - [w3school](https://www.w3schools.com/jsref/jsref_match.asp) - JavaScript String match()
