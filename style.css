@@ -309,6 +309,7 @@ i:hover {
     }
     .heading {
         text-align: left;
+        margin-left: 80px
     }
     .heading-p {
         padding-left: 0;
