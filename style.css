@@ -435,9 +435,10 @@ i:hover {
     .error-msg {
         top: 80px;
     }
-}
-
-.max-width {
+    .max-width {
     max-width: 1200px;
     margin-inline: auto;
+    }
 }
+
+
