@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="index.js" defer></script>
+  
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+</head>
+<body>
+  <header class="max-width">
+    <img src="images/logo.svg" alt="logo" class="logo">
+    <ul class="ul-header">
+      <li class="li-header">Features</li>
+      <li class="li-header">Team</li>
+      <li class="li-header">Sign In</li>
+    </ul>
+  </header>
+  <section class="heading-section max-width">
+    <div class="heading">
+      <h1>All your files in one secure location, accessible anywhere.</h1>
+      <p class="heading-p">
+        Fylo stores your most important files in one secure location. 
+        Access them wherever you need, share and collaborate with friends, 
+        family, and co-workers.      
+      </p>
+      <form action="#" class="form-1">
+        <input type="email" placeholder="Enter your email..." class="email-1" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+        <input type="submit" value="Get Started" class="submit-1 button-blue">
+      </form>  
+    </div>
+    <img src="images/illustration-1.svg" alt="two persons looking for smth" class="illustration illust-1">
+  </section>
+  <section class="sub-heading-section">
+    <img src="images/bg-curve-mobile.svg" alt="curve" class="curve-mobile">
+    <img src="images/bg-curve-desktop.svg" alt="curve" class="curve-desktop">
+    <div class="new-bg-hell-blue">
+      <div class="sub-heading max-width">
+        <div>
+          <h2>Stay productive, wherever you are</h2>
+          <p class="sub-heading-p">
+            Never let location be an issue when accessing your files. Fylo has you 
+            covered for all of your file storage needs.
+          </p>
+          <p class="sub-heading-p">
+            Securely share files and folders with friends, family and colleagues for 
+            live collaboration. No email attachments required!        
+          </p>
+          <div class="green">
+            <div class="green-div">          
+              <span>See how Fylo works</span>
+              <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><circle id="b" cx="6" cy="6" r="6"/><filter x="-25%" y="-25%" width="150%" height="150%" filterUnits="objectBoundingBox" id="a"><feOffset in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"/><feColorMatrix values="0 0 0 0 0.239215686 0 0 0 0 0.62745098 0 0 0 0 0.560784314 0 0 0 0.793506567 0" in="shadowBlurOuter1"/></filter></defs><g transform="translate(2 2)"><use filter="url(#a)" xlink:href="#b"/><use  xlink:href="#b"/></g><path d="M8.582 6l-.363.35 1.452 1.4H5.333v.5h4.338L8.22 9.65l.363.35 2.074-2z" fill="#FFF"/></g></svg></div>
+            <hr> 
+          </div>
+          
+          <div class="quote">
+            <img src="images/icon-quotes.svg" alt="icon-quotes">
+            <p class="quote-p">
+              Fylo has improved our team productivity by an order of magnitude. Since 
+              making the switch our team has become a well-oiled collaboration machine.          
+            </p>
+            <div class="avatar">
+              <img src="images/avatar-testimonial.jpg" alt="avatar" class="img-avatar">
+              <div>
+                <span class="name">Kyle Burton</span>
+                <span class="occupation">Founder & CEO, Huddle</span>  
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="images/illustration-2.svg" alt="three persons illustration" class="illustration">
+      </div>
+  
+    </div>
+  </section>
+  <div class="new-bg-purple">
+    <section class="bg-hell-blue max-width">
+      <div>
+        <h3>Get early access today</h3>
+        <p> 
+          It only takes a minute to sign up and our free starter tier is extremely generous. 
+          If you have any questions, our support team would be happy to help you.
+        </p>
+      </div>
+      <form action="#" class="form form-2" >
+        <input type="email" placeholder="email@example.com" class="email-2" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+        <input type="submit" value="Get Started For Free" class="button-blue submit-2">
+      </form>  
+    </section>
+  
+  </div>
+  <div class="new-bg-footer">
+    <footer class="bg-dark-blue max-width">
+      <img src="images/logo-footer.svg" alt="logo" class="logo-footer">
+      <div class="tel-mail">
+        <div class="tel">
+          <img src="images/icon-phone.svg" alt="icon-phone" class="phone-email-icons">
+          <span>Phone: +1-543-123-4567</span>
+        </div>
+        <div class="mail">
+          <img src="images/icon-email.svg" alt="icon-email" class="phone-email-icons">
+          <span>example@fylo.com</span>
+        </div>
+      </div>
+      <div class="about-contact">
+        <div class="about-us">
+          <span>About Us</span>
+          <span>Jobs</span>
+          <span>Press</span>
+          <span>Blog</span>
+        </div>
+        <div class="contact">
+          <span>Contact Us</span>
+          <span>Terms</span>
+          <span>Privacy</span>
+        </div>  
+      </div>
+      <div class="social-media">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://www.linkedin.com/in/nino-gogoladze-80a075227/" target="_blank">Nino</a>.
+      </p>
+    </footer>
+  
+  </div>
+  <script src="https://kit.fontawesome.com/b33b494db7.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
