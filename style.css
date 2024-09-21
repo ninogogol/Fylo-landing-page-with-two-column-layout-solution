@@ -8,6 +8,10 @@
     border: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .curve-desktop {
     display: none;
 }
@@ -32,6 +36,11 @@ ul {
 .li-header {
     margin-left: 25px;
     cursor: pointer;
+}
+
+.li-header a {
+    text-decoration: none;
+    color: #07043B;
 }
 
 .heading-section {
@@ -272,6 +281,36 @@ i:hover {
 
 
 
+/* Button Hover Effekt */
+.popup button:hover {
+    background-color: #0056b3; /* Leicht dunklerer Blauton bei Hover */
+}
+
+/* Overlay styling */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Halbtransparenter dunkler Hintergrund */
+    z-index: 500;
+}
+
+/* Responsive Design für das Popup */
+@media only screen and (min-width: 600px) {
+    .popup {
+        width: 80%; /* Etwas größere Breite für mittlere Bildschirme */
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .popup {
+        width: 50%; /* Breitere Darstellung für große Bildschirme */
+    }
+}
+
 
 /* Styles for Tablet */
 
@@ -442,3 +481,43 @@ i:hover {
 }
 
 
+/* Popup styling */
+.popup {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%; /* Setze die Breite auf 90% für kleine Bildschirme */
+    max-width: 400px; /* Begrenze die Breite auf 400px für größere Bildschirme */
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Leichter Schatten für bessere Sichtbarkeit */
+    z-index: 1000;
+    text-align: center;
+    border-radius: 10px; /* Abgerundete Ecken */
+    font-family: 'Open Sans', sans-serif; /* Ansprechende Schriftart */
+}
+
+.popup h3 {
+    margin-top: 0;
+    font-size: 24px; /* Größere Schriftgröße für bessere Lesbarkeit */
+    color: #333;
+}
+
+.popup p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.popup button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #2F65F8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}

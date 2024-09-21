@@ -15,9 +15,9 @@
   <header class="max-width">
     <img src="images/logo.svg" alt="logo" class="logo">
     <ul class="ul-header">
-      <li class="li-header">Features</li>
-      <li class="li-header">Team</li>
-      <li class="li-header">Sign In</li>
+      <li class="li-header"><a href="#features">Features</a></li>
+      <li class="li-header"><a href="#team">Team</a></li>
+      <li class="li-header"><a href="#sign-in">Sign In</a></li>
     </ul>
   </header>
   <section class="heading-section max-width">
@@ -38,7 +38,7 @@
   <section class="sub-heading-section">
     <img src="images/bg-curve-mobile.svg" alt="curve" class="curve-mobile">
     <img src="images/bg-curve-desktop.svg" alt="curve" class="curve-desktop">
-    <div class="new-bg-hell-blue">
+    <div id="features" class="new-bg-hell-blue">
       <div class="sub-heading max-width">
         <div>
           <h2>Stay productive, wherever you are</h2>
@@ -66,7 +66,7 @@
             <div class="avatar">
               <img src="images/avatar-testimonial.jpg" alt="avatar" class="img-avatar">
               <div>
-                <span class="name">Kyle Burton</span>
+                <span id="team" class="name">Kyle Burton</span>
                 <span class="occupation">Founder & CEO, Huddle</span>  
               </div>
             </div>
@@ -78,7 +78,7 @@
     </div>
   </section>
   <div class="new-bg-purple">
-    <section class="bg-hell-blue max-width">
+    <section id="sign-in" class="bg-hell-blue max-width">
       <div>
         <h3>Get early access today</h3>
         <p> 
@@ -131,6 +131,18 @@
     </footer>
   
   </div>
+
+    <!-- Popup-Fenster -->
+  <div class="popup" id="popup">
+    <h3>You've successfully signed up!</h3>
+    <p>Your email address is not stored anywhere. This is just a demo.</p>
+    <button onclick="closePopup()">Close</button>
+  </div>
+
+  <!-- Overlay -->
+  <div class="overlay" id="overlay"></div>
+
+  
   <script src="https://kit.fontawesome.com/b33b494db7.js" crossorigin="anonymous"></script>
 </body>
 </html>
